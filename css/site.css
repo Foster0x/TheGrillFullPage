@@ -98,7 +98,7 @@ header {
 }
 
 .mainHeader {
-    background-image: url(/img/img/PortfolioBGTree_576.png);
+    background-image: url(/img/custom_resized_1024.jpg);
     height: 200px;
     background-repeat: no-repeat;
     background-position: right top;
@@ -181,31 +181,17 @@ footer {
 
 }
 
-.socialicons {
-    font-size: 2rem;
-    color: var(--cf-secondary-color);
-}
-
-a.socialicons:hover {
-    color: var(--cf-light-color);
-    opacity: 1;
-}
-
-.footer-bg-cta {
-    background: linear-gradient(to bottom, var(--cf-background-color), var(--cf-background-color) 50%, var(--cf-dark-color) 50%, var(--cf-dark-color) 100%)
-}
-
 /* Break Points-Media Queries */
 @media (min-width: 575.98px) {
     .mainHeader {
-        background-image: url("/img/img/PortfolioBGTree_767.png");
+        background-image: url("/img/TheGrill-Website-HomeSplash.jpg");
         height: 200px;
     }
 }
 
 @media (min-width: 767.98px) {
     .mainHeader {
-        background-image: url("/img/img/PortfolioBGTree_992.png");
+        background-image: url("/img/TheGrill-Website-HomeSplash.jpg");
         height: 300px;
     }
 
@@ -224,14 +210,14 @@ a.socialicons:hover {
 
 @media (min-width: 991.98px) {
     .mainHeader {
-        background-image: url("/img/img/PortfolioBGTree_1200.png");
+        background-image: url("/img/TheGrill-Website-HomeSplash.jpg");
         height: 400px;
     }
 }
 
 @media (min-width: 1199.98px) {
     .mainHeader {
-        background-image: url("/img/img/PortfolioBGTree_2560.png");
+        background-image: url("/img/TheGrill-Website-HomeSplash.jpg");
         height: 500px;
     }
 
@@ -250,12 +236,8 @@ a.socialicons:hover {
 
 @media (min-width: 1399.98px) {
     .mainHeader {
-        background-image: url("/img/img/PortfolioBGTree_2560.png");
+        background-image: url("/img/custom_resized_c8a64c38-c36d-4c5d-8233-3506d4007ebf.jpg");
         height: 500px;
     }
 }
 
-.form-group {
-    padding: .5rem;
-    font-weight: bold;
-}
