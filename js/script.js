@@ -1,0 +1,4 @@
+let navFromTop,scrollFromTop
+$(document).ready(function(){fadeInLogo();fadeInNav();});$(window).resize(function(){});$(window).scroll(function(event){});$("a[href^=\\#]").click(function(e){var jump=$(this).attr('href').substr(1);var new_position=$("a[name='"+jump+"']").offset();console.log(new_position)
+$('html, body').stop().animate({scrollTop:new_position.top},375);window.location.hash=jump;e.preventDefault();});$('.menu-categories li').click(function(event){if(!event.detail||event.detail==1){var cat=$(this).attr('class');var bg=$(this).attr('data-bg');$('.menu-categories li').removeClass('active');$(this).addClass('active');$('.menu-category').hide();$('.menu-category.'+cat).fadeIn();$('.menu').css('background-image','url(/assets/images/'+bg+')');}});function fadeInLogo(){setTimeout(function(){$('.home .page-content').animate({opacity:1},1250)},250)}
+function fadeInNav(){setTimeout(function(){$('.nav').animate({opacity:1},750)},250)}

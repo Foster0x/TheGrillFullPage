@@ -62,17 +62,6 @@ h1,
     vertical-align: middle;
 }
 
-.form-control, .form-select {
-    background-color: var(--cf-formfocus-background-color);
-}
-
-.form-control:focus, .form-select:focus {
-    background-color: var(--cf-formfocus-background-color);
-    border-color: var(--cf-formfocus-border-color);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px var(--cf-formfocus-shadow);
-}
-*/
-
 
 html,
 body {
